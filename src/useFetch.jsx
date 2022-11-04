@@ -5,7 +5,7 @@ const useFetch = (limit) => {
  
   useEffect(() => {
 
-    fetch(`https://jsonplaceholder.typicode.com/posts?_start=2&_limit=${limit}`)
+    fetch(`https://jsonplaceholder.typicode.com/posts?_start=0 &_limit=${limit}`)
     .then((res) => res.json())
     .then((data) => {
       state.data=data

@@ -17,6 +17,7 @@ const Data = () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
+    
     let { data } = useFetch(currentlength)
     return (
         <>

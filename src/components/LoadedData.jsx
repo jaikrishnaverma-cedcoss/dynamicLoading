@@ -17,7 +17,7 @@ const LoadedData = (props) => {
   return (
    <>
     <div className="w60 col m1 hm0">
-                <div className="row full line dbg" style={{ borderRadius: "5px 5px 0px 0px" }}><p className='m1'>{props.data.title}</p></div>
+                <div className="row full line dbg flexSB" style={{ borderRadius: "5px 5px 0px 0px" }}><p className='m1'>{props.data.title}</p><p className="m1">Id:&nbsp;{props.data.id}</p></div>
                 <div className="row full line fclr" style={{ borderRadius: "0px 0px 5px 5px" }}><p className="m1">{props.data.body}</p></div>
     </div>
    </>
