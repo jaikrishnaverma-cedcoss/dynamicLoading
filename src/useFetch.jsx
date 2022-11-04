@@ -14,7 +14,7 @@ const useFetch = (limit) => {
     })
   }, [limit]);
  
-  return state;
+  return state.data  ;
 };
  
 export default useFetch;
